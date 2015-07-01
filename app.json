@@ -15,6 +15,15 @@
     },
     "twilio_app_id": {
             "description": "Application Id - you must create app in your Twilio Account -> Dev Tools ->  Twiml Apps"
+    },
+    "pusherkey": {
+            "description": "Get from your Pusher account"
+    },
+    "pushersecret": {
+            "description": "Get from your Pusher account"
+    },
+    "pusherUrl": {
+            "description": "substitue your own app id: 11111"
     }
   }
 }
