@@ -1,4 +1,4 @@
-#Twilio Client quicker-starter.
+#Twilio Client call progress event demo
 
 Based on Twilio Client quickstart https://github.com/choppen5/twilio-client-quicker-starter 
 
@@ -15,6 +15,9 @@ Pre requisties/config setup - you need the following environment variables (incl
 - appsid      = ENV['twilio_app_id']
 - pusherkey   = ENV['pusher_key']
 - pushersecret= ENV['pusher_secret']
+- statusCallback - http://youreserver.com/status_callback
+- Pusher.url = your Pusher app, for example http://#{pusherkey}:#{pushersecret}@api.pusherapp.com/apps/111111
+
 
 You can also use the Heroku button to deploy: [Heroku Button](https://blog.heroku.com/archives/2014/8/7/heroku-button). 
 
